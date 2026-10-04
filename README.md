@@ -61,6 +61,10 @@ an item: `client/src/pages/ItemForm.jsx`. It is already routed at
 `/items/new` and `/items/:id`, both behind `ProtectedRoute`, and the
 "Report Item" nav link and the "Edit" buttons already point to it.
 
+This is roughly what the finished page should look like (filled in with example values):
+
+![Finished page](docs/report-item.png)
+
 ### TODO 1 — the form
 Render inputs bound to the `form` state:
 - `title` — text input (e.g. `Black backpack`)
